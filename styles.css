@@ -1,0 +1,37 @@
+body {
+  margin: 20px;
+  background: #141414;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.avatar {
+  width: 170px;
+  transition: all 0.5s ease-in-out;
+}
+
+.avatar:hover {
+  width: 200px;
+}
+
+.card {
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #011638;
+  color: #eef0f2;
+  border: 8px outset #eec643;
+  border-radius: 10px;
+}
+
+.info {
+  transition: all 0.5s ease-in-out;
+  margin-left: 20px;
+  margin: auto 0;
+}
+
+.info:hover {
+  font-size: 20px;
+}
